@@ -10,7 +10,7 @@ Windows
 
 # Run Local
 ```
-k6 run script_stress_testing.js
+K6_WEB_DASHBOARD=true K6_WEB_DASHBOARD_EXPORT=html-report.html k6 run script_stress_testing.js
 ```
 
 # Monitor With Gafana Cloud
